@@ -199,6 +199,12 @@ Two or more relations can be logically joined using the logical operators AND an
 AND - Returns True if both statements are true. eg : x < 5 and  x < 10
 OR - Returns True if one of the statements is true. eg : x < 5 or x < 4
 ============================================================================================================
+operator precedence
+
+This is used in an expression with more than one operator with different precedence to determine which 
+operation to perform first.
+Example: 10 + 20 * 30
+============================================================================================================
 
 V. data types introduction
 
@@ -231,13 +237,13 @@ complex - Complex number is represented by complex class. It is specified as (re
 ======================================================================================================
 
 Explain about string. 
-A string is a series of characters. In Python, anything inside quotes is a string. By using either single or double quotes we can create string
+A string is a series of characters. In Python, anything inside quotes is a string. By using either single 
+or double quotes we can create string eg : str1 = "sindhu"
 Multi line string :
 A multiline string in Python begins and ends with either three single quotes or three double quotes. 
 Any quotes, tabs, or newlines in between the “triple quotes” are considered part of the string. 
 Python's indentation rules for blocks do not apply to lines inside a multiline string.
-=========================================================================================================
-              
+==========================================================================================================
 
 
 VI. keywords
